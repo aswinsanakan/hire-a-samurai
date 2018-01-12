@@ -11,6 +11,8 @@ const databaseUri = process.env.DATABASE_URI || 'mongodb://localhost/samuraidb';
 mongoose.connect(databaseUri, {useMongoClient: true});
 mongoose.Promise = global.Promise;
 
+app.use(express.static('public'));
+
 // Add bodyParser middleware
 app.use(bodyParser.json());
 

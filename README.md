@@ -5,9 +5,9 @@ ___Search and hire Samurais from across the world for your nefarious deeds...*__
 
 (_*terms & conditions applied_)
 
-Built with __Node.js__ and __MongoDB__.
+Built with __Node.js__, __React__ and __MongoDB__.
 
-Used `express` for routing & `mongoose` for mongodb connection.
+Used `express` for routing & `mongoose` for mongodb connection. `React` for view components.
 
 ### Usage
 
